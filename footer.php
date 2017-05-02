@@ -23,16 +23,7 @@
 <footer>
 	<div class="container">
 		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="pages.html">Pages</a></li>
-				<li><a href="layout.html">Layouts</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+			<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav>
 
 		<div class="footer-logo">

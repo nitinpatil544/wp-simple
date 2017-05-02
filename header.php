@@ -44,7 +44,9 @@
 							<i id="menu" class="fa fa-bars" aria-hidden="true"></i>
 						</label>
 						<input type="checkbox" name="checkButton" id="checkButton">
-						<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+						<div class="desktopNav animate">
+							<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+						</div>
 					</nav>
 					<div class="clearfix"></div>
 				</div>

@@ -1035,6 +1035,7 @@ header nav ul li a:hover, header nav .active a {
     top: 0;
     right: 31px;
     padding: 20px;
+    overflow: hidden;
 }
 
 .caption h3 {
@@ -1044,7 +1045,7 @@ header nav ul li a:hover, header nav .active a {
     color: #fff;
 }
 
-.caption p {
+.slider-para p {
     font-size: 14px;
     color: #ccc;
     font-family: tahoma;
@@ -1079,26 +1080,12 @@ header nav ul li a:hover, header nav .active a {
     transition: all .5s;
 }
 
-#content h3 {
-    font-size: 15px;
-    font-family: georgia;
-    color: #000;
-    margin-top: 5px;
-    font-weight: normal;
-}
-
-#content p {
-    font-size: 13px;
-    font-family: tahoma;
-    color: #333;
-}
-
-#content ul.tabs{
+#content ul.tabs {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
-#content ul.tabs li{
+#content ul.tabs li {
     background: none;
     color: #222;
     display: block;
@@ -1107,12 +1094,12 @@ header nav ul li a:hover, header nav .active a {
     margin-bottom: 10px;
 }
 
-#content ul.tabs li.current{
+#content ul.tabs li.current {
     background: #993404;
     color: #fff;
 }
 
-#content .tab-content{
+#content .tab-content {
     background: transparent;
 }
 
